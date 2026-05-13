@@ -68,15 +68,11 @@ class TuringMachine:
 
             if bit == '1':
                 shifted_value = multiplicand_decimal << shift
-
                 self.result += shifted_value
-
                 self.state = "q3"
-
                 self.print_step(bit, bit)
             else:
                 self.state = "q2"
-
                 self.print_step(bit, bit)
             shift += 1
             self.head += 1
