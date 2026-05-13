@@ -1,6 +1,6 @@
 # Turing Makinesi ile Binary Çarpma Simülasyonu
 
-Bu proje, iki ikilik sayıyı "Shift and Add" algoritmasını kullanarak çarpan bir Turing Makinesi simülasyonudur.
+Bu proje, iki binary sayıyı "Shift and Add" algoritmasını kullanarak çarpan bir Turing Makinesi simülasyonudur.
 
 ## Çalışma Mantığı
 Program, kullanıcıdan alınan iki binary sayıyı bir bant (tape) üzerine yerleştirir ve şu durumları simüle eder:
